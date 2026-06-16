@@ -1,0 +1,107 @@
+{
+ "keyword": "optimism swap",
+ "h1": "Optimism Swap",
+ "brand": "Optimism Swap",
+ "niche": "swap",
+ "verb": "Swap",
+ "title": "Optimism Swap - Open App",
+ "meta_description": "optimism swap opens a direct route to trade tokens on OP Mainnet through the official Uniswap app, with network and domain checks.",
+ "palette": {
+  "mode": "dark",
+  "bg": "#000000",
+  "accent": "#FF0421",
+  "ink": "#FFFFFF"
+ },
+ "hero_h2": "Trade tokens on OP Mainnet through Uniswap",
+ "hero_lead": "Optimism Swap connects you to the Uniswap web app for token trades on OP Mainnet, with a clean route to check the network, wallet prompt, and destination domain before signing.",
+ "badge": "OP Mainnet",
+ "widget": {
+  "from": "ETH",
+  "from_net": "OP Mainnet",
+  "to": "USDC",
+  "to_net": "OP Mainnet",
+  "action": "Open Uniswap App"
+ },
+ "trust": [
+  "OP Mainnet chain ID 10",
+  "ETH is used for gas",
+  "Uniswap deployments include Optimism"
+ ],
+ "what_is": "Optimism Swap is a focused route for trading tokens on OP Mainnet, not a separate exchange or wallet. It points users to Uniswap's official interface while keeping network details aligned with <a href='https://docs.optimism.io/op-mainnet/network-information/connecting-to-op'>Optimism network information</a>.",
+ "how": [
+  {
+   "t": "Open the app",
+   "d": "Use the primary button to open Uniswap with the Optimism chain context."
+  },
+  {
+   "t": "Connect your wallet",
+   "d": "Confirm the domain is app.uniswap.org before approving any wallet prompt."
+  },
+  {
+   "t": "Select OP Mainnet",
+   "d": "Keep both assets on OP Mainnet and make sure you have ETH available for gas."
+  },
+  {
+   "t": "Review and sign",
+   "d": "Check token addresses, price impact, route, and minimum received before submitting."
+  }
+ ],
+ "points": [
+  {
+   "h": "Official trade surface",
+   "p": "The action opens <a href='https://app.uniswap.org/swap?chain=optimism'>Uniswap</a>, a recognized swap interface, instead of collecting wallet secrets or custodying funds."
+  },
+  {
+   "h": "Network clarity",
+   "p": "OP Mainnet uses chain ID 10 and ETH as the gas token, so wallet network prompts should match those details."
+  },
+  {
+   "h": "Verifiable activity",
+   "p": "After a transaction is submitted, its status and token movement can be checked on the <a href='https://explorer.optimism.io'>OP Mainnet explorer</a>."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "Optimism network information",
+   "url": "https://docs.optimism.io/op-mainnet/network-information/connecting-to-op"
+  },
+  {
+   "text": "Uniswap deployments",
+   "url": "https://developers.uniswap.org/docs/protocols/v4/deployments"
+  },
+  {
+   "text": "OP Mainnet explorer",
+   "url": "https://explorer.optimism.io"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is optimism swap?",
+   "a": "Optimism swap is a landing route for token trades on OP Mainnet; the trade itself happens in the Uniswap app at app.uniswap.org.",
+   "open": true
+  },
+  {
+   "q": "Is optimism swap the official Optimism app?",
+   "a": "No. This page is not operated by Optimism Foundation; it routes swap intent to Uniswap and asks users to verify the destination domain before connecting a wallet.",
+   "open": false
+  },
+  {
+   "q": "Which network does optimism swap use?",
+   "a": "It is focused on OP Mainnet, which Optimism documents as chain ID 10 with ETH as the currency symbol for gas.",
+   "open": false
+  },
+  {
+   "q": "Do I need ETH for optimism swap?",
+   "a": "Yes. You need ETH on OP Mainnet for transaction gas and the tokens you intend to trade on the same network.",
+   "open": false
+  },
+  {
+   "q": "Where does optimism swap open?",
+   "a": "The primary action opens <a href='https://app.uniswap.org/swap?chain=optimism'>https://app.uniswap.org/swap?chain=optimism</a>; confirm app.uniswap.org in the address bar before signing.",
+   "open": false
+  }
+ ],
+ "official_url": "https://app.uniswap.org/swap?chain=optimism",
+ "official_domain": "app.uniswap.org",
+ "footer_note": "This page is not the official app; verify app.uniswap.org before connecting a wallet. Educational content only, not financial advice."
+}
